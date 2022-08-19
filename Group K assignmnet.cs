@@ -14,10 +14,18 @@
             Stone st2 = new Stone("Basalt", 34.56, "Green", 150);
             Stone st3 = new Stone("Graphite", 89.45, "Yellow", 340);
             Stone st4 = new Stone("Marble", 20.43, "Blue", 560);
+            Stone st5 = new Stone("Diamond", 97.26, "White", 680);
+            Stone st6 = new Stone("Onyx", 10.13, "Black", 100);
+            Stone st7 = new Stone("Soapstone", 50.10, "Pink", 50);
+            Stone st8 = new Stone("Marble", 60.39, "Green", 440);
             mys.addStone(st1);
             mys.addStone(st2);
             mys.addStone(st3);
             mys.addStone(st4);
+            mys.addStone(st5);
+            mys.addStone(st6);
+            mys.addStone(st7);
+            mys.addStone(st8);
             WriteLine("**************************Black Diamond Stones************************************");
             WriteLine("                                                              ");
             WriteLine("                                                              ");
@@ -27,7 +35,15 @@
             WriteLine("");
             WriteLine($"Name of metal:{st3.GetName()} Price:${st3.GetPrice} Color:{st3.GetColour} Weight:{st3.GetWeight}");
             WriteLine("")
-            WriteLine($"Name of metal:{st3.GetName()} Price:${st3.GetPrice} Color:{st3.GetColour} Weight:{st3.GetWeight}");
+            WriteLine($"Name of metal:{st4.GetName()} Price:${st4.GetPrice} Color:{st4.GetColour} Weight:{st4.GetWeight}");
+            WriteLine($"Name of metal:{st5.GetName()} Price:${st5.GetPrice} Color:{st5.GetColour} Weight:{st5.GetWeight}");
+            WriteLine($"Name of metal:{st6.GetName()} Price:${st6.GetPrice} Color:{st6.GetColour} Weight:{st6.GetWeight}");
+            WriteLine($"Name of metal:{st7.GetName()} Price:${st7.GetPrice} Color:{st7.GetColour} Weight:{st7.GetWeight}");
+            WriteLine($"Name of metal:{st8.GetName()} Price:${st8.GetPrice} Color:{st8.GetColour} Weight:{st8.GetWeight}");
+
+
+
+
 
             //Methods
             WriteLine($"{mys.MostExpensiveStone()}");
